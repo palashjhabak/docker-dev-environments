@@ -45,3 +45,7 @@ RUN cp /root/dotfiles/.tern-project /root/.tern-project
 RUN yarn add --dev eslint babel-eslint eslint-plugin-react
 
 RUN yarn add --dev prettier eslint-config-prettier eslint-plugin-prettier 
+
+RUN yarn add global react-native-cli
+
+RUN apt-get install openjdk-8-jre
