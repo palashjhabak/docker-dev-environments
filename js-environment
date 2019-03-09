@@ -1,3 +1,8 @@
+#TODO:
+#install fzf
+#install ripgrep
+#install android sdk
+
 FROM ubuntu:latest
 ENV DEBIAN_FRONTEND=noninteractive
 
